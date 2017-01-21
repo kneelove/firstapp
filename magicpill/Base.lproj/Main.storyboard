@@ -21,14 +21,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="miraclePillEmoji" translatesAutoresizingMaskIntoConstraints="NO" id="67m-yH-BRl">
-                                <rect key="frame" x="79" y="79" width="163" height="88"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="miraclePillEmoji" translatesAutoresizingMaskIntoConstraints="NO" id="JcX-OU-p0N">
+                                <rect key="frame" x="64" y="65" width="193" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="193" id="NpZ-K6-Ycw"/>
+                                    <constraint firstAttribute="height" constant="90" id="aas-7i-Fca"/>
+                                </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Fortune Pills" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJB-bb-Zpj">
+                                <rect key="frame" x="113" y="174" width="104" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.36821972150259064" green="0.36821972150259064" blue="0.36821972150259064" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="67m-yH-BRl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dmE-su-FRI"/>
-                            <constraint firstItem="67m-yH-BRl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-161" id="zSU-vu-sWz"/>
+                            <constraint firstItem="rJB-bb-Zpj" firstAttribute="centerX" secondItem="JcX-OU-p0N" secondAttribute="centerX" id="D2Y-jj-HFE"/>
+                            <constraint firstItem="JcX-OU-p0N" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="45" id="c5P-3i-cUN"/>
+                            <constraint firstItem="JcX-OU-p0N" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yIx-gM-rS3"/>
                         </constraints>
                     </view>
                 </viewController>
