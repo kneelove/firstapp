@@ -16,6 +16,7 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
     
     @IBOutlet weak var PillButton: UIButton!
     @IBOutlet weak var PillPicker: UIPickerView!
+    @IBOutlet weak var BuyNowButton: UIButton!
     
     override func viewDidLoad() {
     
@@ -33,6 +34,7 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
 
     @IBAction func PillButtonPressed(_ sender: Any) {
         PillPicker.isHidden = false
+        BuyNowButton.isHidden=true
     }
 
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
@@ -57,9 +59,12 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+       
         let a = "\(basepill[row]) \(toppill[row])"
         PillButton.setTitle(a, for: UIControlState.normal)
         PillPicker.isHidden=true
+        BuyNowButton.isHidden=false
+        
     }
     
 }

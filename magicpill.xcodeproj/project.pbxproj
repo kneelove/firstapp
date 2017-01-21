@@ -13,7 +13,6 @@
 		71F76FB91E32083800330579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F76FB81E32083800330579 /* Assets.xcassets */; };
 		71F76FBC1E32083800330579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F76FBA1E32083800330579 /* LaunchScreen.storyboard */; };
 		71F76FC71E32083900330579 /* magicpillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F76FC61E32083900330579 /* magicpillTests.swift */; };
-		71F76FD21E32083900330579 /* magicpillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F76FD11E32083900330579 /* magicpillUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +33,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		71F76FAE1E32083800330579 /* magicpill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = magicpill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B316A01E3385D600BCF2E7 /* magicpill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = magicpill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B316A11E3385D600BCF2E7 /* magicpillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magicpillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B316A21E3385D600BCF2E7 /* magicpillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magicpillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F76FB11E32083800330579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71F76FB31E32083800330579 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71F76FB61E32083800330579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71F76FB81E32083800330579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71F76FBB1E32083800330579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71F76FBD1E32083800330579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71F76FC21E32083900330579 /* magicpillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magicpillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F76FC61E32083900330579 /* magicpillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = magicpillTests.swift; sourceTree = "<group>"; };
 		71F76FC81E32083900330579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71F76FCD1E32083900330579 /* magicpillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magicpillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		71F76FD11E32083900330579 /* magicpillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = magicpillUITests.swift; sourceTree = "<group>"; };
-		71F76FD31E32083900330579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,19 +76,10 @@
 			children = (
 				71F76FB01E32083800330579 /* magicpill */,
 				71F76FC51E32083900330579 /* magicpillTests */,
-				71F76FD01E32083900330579 /* magicpillUITests */,
-				71F76FAF1E32083800330579 /* Products */,
+				71B316A01E3385D600BCF2E7 /* magicpill.app */,
+				71B316A11E3385D600BCF2E7 /* magicpillTests.xctest */,
+				71B316A21E3385D600BCF2E7 /* magicpillUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		71F76FAF1E32083800330579 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				71F76FAE1E32083800330579 /* magicpill.app */,
-				71F76FC21E32083900330579 /* magicpillTests.xctest */,
-				71F76FCD1E32083900330579 /* magicpillUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		71F76FB01E32083800330579 /* magicpill */ = {
@@ -116,15 +104,6 @@
 			path = magicpillTests;
 			sourceTree = "<group>";
 		};
-		71F76FD01E32083900330579 /* magicpillUITests */ = {
-			isa = PBXGroup;
-			children = (
-				71F76FD11E32083900330579 /* magicpillUITests.swift */,
-				71F76FD31E32083900330579 /* Info.plist */,
-			);
-			path = magicpillUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,7 +121,7 @@
 			);
 			name = magicpill;
 			productName = magicpill;
-			productReference = 71F76FAE1E32083800330579 /* magicpill.app */;
+			productReference = 71B316A01E3385D600BCF2E7 /* magicpill.app */;
 			productType = "com.apple.product-type.application";
 		};
 		71F76FC11E32083900330579 /* magicpillTests */ = {
@@ -160,7 +139,7 @@
 			);
 			name = magicpillTests;
 			productName = magicpillTests;
-			productReference = 71F76FC21E32083900330579 /* magicpillTests.xctest */;
+			productReference = 71B316A11E3385D600BCF2E7 /* magicpillTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		71F76FCC1E32083900330579 /* magicpillUITests */ = {
@@ -178,7 +157,7 @@
 			);
 			name = magicpillUITests;
 			productName = magicpillUITests;
-			productReference = 71F76FCD1E32083900330579 /* magicpillUITests.xctest */;
+			productReference = 71B316A21E3385D600BCF2E7 /* magicpillUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,8 +172,7 @@
 				TargetAttributes = {
 					71F76FAD1E32083700330579 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = K3DFKVCJ57;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					71F76FC11E32083900330579 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -217,7 +195,7 @@
 				Base,
 			);
 			mainGroup = 71F76FA51E32083700330579;
-			productRefGroup = 71F76FAF1E32083800330579 /* Products */;
+			productRefGroup = 71F76FA51E32083700330579;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -277,7 +255,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71F76FD21E32083900330579 /* magicpillUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = K3DFKVCJ57;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = magicpill/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zeolabs.magicpill;
@@ -426,7 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = K3DFKVCJ57;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = magicpill/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zeolabs.magicpill;
@@ -508,6 +485,7 @@
 				71F76FD81E32083900330579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71F76FD91E32083900330579 /* Build configuration list for PBXNativeTarget "magicpillTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +494,7 @@
 				71F76FDB1E32083900330579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71F76FDC1E32083900330579 /* Build configuration list for PBXNativeTarget "magicpillUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +503,7 @@
 				71F76FDE1E32083900330579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
